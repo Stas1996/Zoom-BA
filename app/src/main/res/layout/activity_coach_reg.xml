@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoachRegActivity">
+
+    <ImageView
+        android:id="@+id/CoachReg_IMG_back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="50sp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:tag="back"
+        />
+
+    <TextView
+        android:id="@+id/CoachReg_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coach Register"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/CoachReg_EDT_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_centerHorizontal="true"
+        android:paddingRight = "200dp"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:id="@+id/CoachReg_EDT_LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_centerHorizontal="true"
+        android:paddingRight = "200dp"
+        android:layout_below="@id/CoachReg_EDT_name"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/CoachReg_EDT_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/CoachReg_EDT_LastName"
+        android:paddingRight = "257dp"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <EditText
+        android:id="@+id/CoachReg_EDT_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/CoachReg_EDT_age"
+        android:paddingRight = "240dp"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/CoachReg_EDT_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/CoachReg_EDT_email"
+        android:paddingRight = "160dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/CoachReg_EDT_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_below="@id/CoachReg_EDT_Phone"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/CoachReg_EDT_Experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Years of Experience"
+        android:layout_below="@id/CoachReg_EDT_Description"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:id="@+id/CoachReg_BTN_File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Certificate"
+        android:layout_below="@id/CoachReg_EDT_Experience"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:tag="register"
+        />
+
+    <Button
+        android:id="@+id/CoachReg_BTN_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Register"
+        android:layout_below="@id/CoachReg_BTN_Manual"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:tag="register"
+        />
+    <Button
+        android:id="@+id/CoachReg_BTN_Manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Manual"
+        android:layout_below="@id/CoachReg_BTN_File"
+
+        android:layout_centerHorizontal="true"
+        android:tag="regManual"
+
+        />
+
+
+</RelativeLayout>

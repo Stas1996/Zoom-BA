@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupplierRegActivity">
+
+    <ImageView
+        android:id="@+id/SupplierReg_BTN_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+
+        android:tag="back"
+        />
+
+    <TextView
+        android:id="@+id/SupplierReg_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supplier Register"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/SupplierReg_EDT_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_centerHorizontal="true"
+        android:paddingRight = "200dp"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:id="@+id/SupplierReg_EDT_LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_centerHorizontal="true"
+        android:paddingRight = "200dp"
+        android:layout_below="@id/SupplierReg_EDT_name"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <EditText
+        android:id="@+id/SupplierReg_EDT_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/SupplierReg_EDT_LastName"
+        android:paddingRight = "240dp"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/SupplierReg_EDT_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/SupplierReg_EDT_email"
+        android:paddingRight = "160dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/SupplierReg_EDT_Company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company name"
+        android:layout_below="@id/SupplierReg_EDT_Phone"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/SupplierReg_EDT_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_below="@id/SupplierReg_EDT_Company"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <Button
+        android:id="@+id/SupplierReg_BTN_Register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Register"
+        android:layout_below="@id/SupplierReg_BTN_Manual"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:tag="register"
+        />
+
+    <Button
+        android:id="@+id/SupplierReg_BTN_Manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Manual"
+        android:layout_below="@id/SupplierReg_EDT_Description"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:tag="regManual"
+
+        />
+
+
+</RelativeLayout>

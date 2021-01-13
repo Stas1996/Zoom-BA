@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sunday"
+        android:textColor="#807D85"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type\nDate\nparticipant"
+        android:textColor="@color/white"
+        android:background="#807D85"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:tag="name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type\nDate\nparticipant"
+
+        android:textColor="@color/white"
+        android:background="#807D85"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:tag="name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type\nDate\nparticipant"
+        android:textColor="@color/white"
+        android:background="#807D85"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:tag="name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type\nDate\nparticipant"
+        android:textColor="@color/white"
+        android:background="#807D85"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:tag="name"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Activity"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="110dp"
+
+            />
+        <TextView
+            android:id="@+id/supplier_LBL_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:tag="name"
+            android:text="13/1/21"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/right"
+            android:layout_marginTop="60dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

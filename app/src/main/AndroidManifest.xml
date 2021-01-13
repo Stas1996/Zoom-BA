@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zoom_ba">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZoomBA">
+        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".SupplierReservationActivity" />
+        <activity android:name=".SupplierEquipmentActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".ReservationActivity" />
+        <activity android:name=".SupplierMainActivity" />
+        <activity android:name=".ParmanentActivity" />
+        <activity android:name=".NutritionistMainActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CoachMainActivity" />
+        <activity
+            android:name=".UserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LiveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChooseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommercialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManualActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NutritionistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupplierActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TrainingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupplierRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NutritionistRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddWorkoutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddSupplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TrainerRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoachRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

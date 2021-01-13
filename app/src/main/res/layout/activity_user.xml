@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:screenOrientation="portrait"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:id="@+id/User_LAY_up"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    >
+    <ImageView
+        android:id="@+id/User_IMG_back"
+        android:layout_below="@id/trainerReg_BTN_Register"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="25dp"
+        android:tag="back"
+        />
+    <TextView
+        android:id="@+id/User_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="110dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/User_LAY_mid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:id="@+id/User_IMG_face"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/face"
+        />
+   <LinearLayout
+       android:id="@+id/User_LAY_inner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:id="@+id/User_LBL_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Wilma Fingerdoo"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="35dp"
+           android:textSize="28sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:id="@+id/User_LBL_edit"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="edit profile"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="15dp"
+            android:textSize="20sp"
+           android:clickable="true"
+           android:tag="data"
+
+           />
+   </LinearLayout>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/User_LBL_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Personal Email: abcd@gmail.com"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:background="#CCC7D1"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/User_LBL_phone"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:background="#CCC7D1"
+        android:gravity="center_vertical"
+        android:text="Personal No.: 050-1234657"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:id="@+id/User_LBL_type"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:background="#CCC7D1"
+        android:gravity="center_vertical"
+        android:text="User type"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+
+        />
+
+        <TextView
+            android:id="@+id/User_LBL_notification"
+        android:layout_width="match_parent"
+            android:layout_height="50dp"
+        android:text="Notifications"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+            android:background="#CCC7D1"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+        />
+        <TextView
+            android:id="@+id/User_LBL_about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+            android:background="#CCC7D1"
+            android:gravity="center_vertical"
+        />
+        <TextView
+            android:id="@+id/User_LBL_friends"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Friends"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+            android:background="#CCC7D1"
+            android:gravity="center_vertical"
+        />
+        <TextView
+            android:id="@+id/User_LBL_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Logout"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+            android:background="#CCC7D1"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:tag="logout"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainerRegActivity">
+
+    <ImageView
+        android:id="@+id/trainerReg_IMG_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:tag="back"
+        />
+
+<TextView
+    android:id="@+id/TrainerReg_LBL_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Trainee Register"
+    android:textSize="25sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="15dp"
+    />
+    <EditText
+        android:id="@+id/TrainerReg_EDT_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_centerHorizontal="true"
+        android:paddingRight = "200dp"
+        android:layout_marginTop="70dp"
+        />
+        <EditText
+        android:id="@+id/TrainerReg_EDT_LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_centerHorizontal="true"
+        android:paddingRight = "200dp"
+            android:layout_below="@id/TrainerReg_EDT_name"
+            android:layout_marginTop="10dp"
+        />
+        <EditText
+        android:id="@+id/TrainerReg_EDT_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:layout_centerHorizontal="true"
+
+            android:layout_below="@id/TrainerReg_EDT_LastName"
+            android:paddingRight = "257dp"
+            android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/TrainerReg_EDT_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TrainerReg_EDT_age"
+        android:paddingRight = "240dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/TrainerReg_EDT_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TrainerReg_EDT_email"
+        android:paddingRight = "160dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/TrainerReg_EDT_Height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TrainerReg_EDT_Phone"
+        android:paddingRight = "220dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/TrainerReg_EDT_Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TrainerReg_EDT_Height"
+        android:paddingRight = "220dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/trainerReg_BTN_File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medical certificate"
+        android:layout_below="@id/TrainerReg_EDT_Weight"
+        android:layout_marginTop="85dp"
+        android:layout_centerHorizontal="true"
+        android:tag="register"
+        />
+
+    <Button
+        android:id="@+id/trainerReg_BTN_Register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Register"
+        android:layout_below="@id/trainerReg_BTN_Manual"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:tag="register"
+        />
+
+    <Button
+        android:id="@+id/trainerReg_BTN_Manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Manual"
+        android:layout_below="@id/trainerReg_BTN_File"
+        android:layout_centerHorizontal="true"
+        android:tag="regManual"
+        />
+
+
+
+</RelativeLayout>

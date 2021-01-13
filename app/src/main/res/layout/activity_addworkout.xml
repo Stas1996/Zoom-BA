@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWorkoutActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/data_BTN_back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="50sp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:tag="back"
+        />
+    <TextView
+        android:id="@+id/data_LBL_titleData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Add workout"
+        android:textColor="#031DB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="75dp"
+        />
+
+    <EditText
+        android:id="@+id/data_EDT_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kind of work out"
+        android:layout_above="@id/addWorkout_EDT_dateAndTime"
+        />
+
+    <EditText
+        android:id="@+id/addWorkout_EDT_dateAndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date and time"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/addWorkout_EDT_trainerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addWorkout_EDT_dateAndTime"
+        android:hint="Trainer name"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/addWorkout_EDT_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addWorkout_EDT_trainerName"
+        android:hint="Price"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="120dp"
+        />
+
+    <Button
+        android:id="@+id/data_BTN_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="#000000"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_gravity="center_horizontal"
+        android:tag="save"
+        />
+
+
+
+</LinearLayout>

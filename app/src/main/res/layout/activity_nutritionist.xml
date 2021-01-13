@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainingActivity"
+    android:background="#AB464480"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/Nutritionist_LBL_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nutritionist List"
+        android:textColor="#CF0B0B"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:id="@+id/Nutritionist_IMG_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:tag="back"
+        />
+    <LinearLayout
+
+        android:id="@+id/Nutritionist_LAY_liner1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#AB424242"
+        android:layout_below="@id/Nutritionist_LBL_Title"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/Nutritionist_IMG_hand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/diet1" />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Nutritionist_LAY_relfirst"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#AB424242"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/Nutritionist_LBL_Title"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <TextView
+
+            android:id="@+id/Nutritionist_LBL_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Ana L.\nAvailable: 29/2/2021\nExperience: 15 years"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:tag="name"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Nutritionist_LAY_liner2"
+        android:layout_below="@id/Nutritionist_LAY_liner1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#AB424242"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:id="@+id/Nutritionist_IMG_hand1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/diet2"
+            android:layout_gravity="left"
+            />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Nutritionist_LAY_relsecond"
+        android:layout_below="@id/Nutritionist_LAY_relfirst"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#AB424242"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+
+        >
+
+
+        <TextView
+
+            android:id="@+id/Nutritionist_LBL_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yoshie Takeshita\nAvailable: 3/2/2021\nExperience: 5 years"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tag="name1"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Nutritionist_LAY_liner3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#AB424242"
+        android:layout_below="@id/Nutritionist_LAY_liner2"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:id="@+id/Nutritionist_IMG_hand2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/diet3"
+            android:layout_gravity="left"
+            />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Nutritionist_LAY_relthird"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#AB424242"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/Nutritionist_LAY_relsecond"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <TextView
+
+            android:id="@+id/Nutritionist_LBL_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chubby Cox\nAvailable: 16/1/2021\nExperience: 10 years"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:tag="name3"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Nutritionist_LAY_liner4"
+        android:layout_below="@id/Nutritionist_LAY_liner3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#AB424242"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:id="@+id/Nutritionist_IMG_hand4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/diet4"
+            android:layout_gravity="left"
+            />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Nutritionist_LAY_fourth"
+        android:layout_below="@id/Nutritionist_LAY_relthird"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#AB424242"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        >
+
+
+
+        <TextView
+
+            android:id="@+id/Nutritionist_LBL_name4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shaquille O'Neal\nAvailable: 7/3/2021\nExperience: 40 years"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tag="name4"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Nutritionist_LAY_liner5"
+        android:layout_below="@id/Nutritionist_LAY_liner4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#AB424242"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:id="@+id/Nutritionist_IMG_hand5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/diet5"
+            android:layout_gravity="left"
+            />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/Nutritionist_LAY_fifth"
+        android:layout_below="@id/Nutritionist_LAY_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#AB424242"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        >
+
+
+
+        <TextView
+
+            android:id="@+id/Nutritionist_LBL_name5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lebron James\nAvailable: 6/3/2021\nExperience: 25 years"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tag="name5"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Nutritionist_LAY_comBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Nutritionist_LAY_fifth"
+        android:layout_alignParentBottom="true"
+
+        >
+        <TextView
+            android:id="@+id/Nutritionist_LBL_commercial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMMERCIAL"
+            android:textSize="50dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:tag="commercial"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
